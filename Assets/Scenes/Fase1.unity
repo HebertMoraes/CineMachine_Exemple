@@ -271,6 +271,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vcamObj: {fileID: 762929007}
+  positionsToChangeText:
+  - 0
+  - 1
+  - 2
+  textsOfNarration:
+  - texto do 0 a
+  - texto do 1 aa
+  - texto do 2 aaa
 --- !u!1 &546740177
 GameObject:
   m_ObjectHideFlags: 0
