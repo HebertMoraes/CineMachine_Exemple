@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using TMPro;
 
 public class ChangeText : MonoBehaviour
 {
@@ -18,7 +19,8 @@ public class ChangeText : MonoBehaviour
     void Update()
     {
         if (vcamComponent.m_PathPosition >= 1) {
-            Debug.Log("maior que 1 porraaaa");
+            
+            gameObject.GetComponent<TextMeshProUGUI>().text = "aaaa troquei porra";
         }
     }
 }
