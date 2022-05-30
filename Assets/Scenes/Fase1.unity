@@ -273,12 +273,18 @@ MonoBehaviour:
   vcamObj: {fileID: 762929007}
   positionsToChangeText:
   - 0
+  - 0.5
   - 1
+  - 1.5
+  - 1.7
   - 2
   textsOfNarration:
-  - texto do 0 a
-  - texto do 1 aa
-  - texto do 2 aaa
+  - texto do 0
+  - texto do 0.5
+  - texto do 1
+  - texto do 1.5
+  - texto do 1.7
+  - texto do 2
 --- !u!1 &546740177
 GameObject:
   m_ObjectHideFlags: 0

@@ -34,14 +34,11 @@ public class ChangeText : MonoBehaviour
             i++;
         }
 
-        if (currentIndexNarration == 0) {
-            gameObject.GetComponent<TextMeshProUGUI>().text = textsOfNarration[0];
-        }
-        if (currentIndexNarration == 1) {
-            gameObject.GetComponent<TextMeshProUGUI>().text = textsOfNarration[1];
-        }
-        if (currentIndexNarration == 2) {
-            gameObject.GetComponent<TextMeshProUGUI>().text = textsOfNarration[2];
+        for(int j=0; j < textsOfNarration.Length; j++) {
+
+            if (j == currentIndexNarration) {
+                gameObject.GetComponent<TextMeshProUGUI>().text = textsOfNarration[j];
+            }
         }
     }
 }
