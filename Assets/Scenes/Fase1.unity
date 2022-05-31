@@ -2782,6 +2782,15 @@ MonoBehaviour:
   - 1.5
   - 1.7
   - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
   textsOfNarration:
   - texto do 0
   - texto do 0.5
@@ -2789,6 +2798,15 @@ MonoBehaviour:
   - texto do 1.5
   - texto do 1.7
   - texto do 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
 --- !u!1001 &520537942
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4219,7 +4237,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.177373, y: 1}
+    m_SensorSize: {x: 0.33844683, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -4235,8 +4253,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 762929006}
-  m_LocalRotation: {x: -0.027411569, y: -0.17953293, z: -0.005004569, w: 0.98335725}
-  m_LocalPosition: {x: 0, y: 2.9, z: -10}
+  m_LocalRotation: {x: -0.00604591, y: -0.6651876, z: -0.0053864047, w: 0.7466324}
+  m_LocalPosition: {x: 33, y: 2.9, z: -4.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1914139356}
@@ -4315,13 +4333,45 @@ MonoBehaviour:
     pathColor: {r: 0, g: 1, b: 0, a: 1}
     inactivePathColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     width: 0.2
-  m_Looped: 0
+  m_Looped: 1
   m_Waypoints:
   - position: {x: 0, y: 0, z: -5}
     roll: 0
-  - position: {x: 0, y: 0, z: 5}
+  - position: {x: -2.71, y: 0, z: 5}
     roll: 0
-  - position: {x: 0, y: 0, z: 15}
+  - position: {x: 0, y: 0, z: 11.11}
+    roll: 0
+  - position: {x: 5.35, y: 3.49, z: 17.22}
+    roll: 0
+  - position: {x: 5.63, y: 6.1, z: 21.93}
+    roll: 0
+  - position: {x: -5.27, y: 1.51, z: 26.640001}
+    roll: 0
+  - position: {x: -19.12, y: -1.2, z: 31.350002}
+    roll: 0
+  - position: {x: -33.3, y: -0.8, z: 39.4}
+    roll: 0
+  - position: {x: -47.479996, y: 1.8, z: 33.38}
+    roll: 0
+  - position: {x: -61.659992, y: 0.01, z: 27.36}
+    roll: 0
+  - position: {x: -75.83999, y: -1.78, z: 39.86}
+    roll: 0
+  - position: {x: -90.01999, y: 0.9, z: 17.31}
+    roll: 0
+  - position: {x: -104.19999, y: 3.58, z: 3.3}
+    roll: 0
+  - position: {x: -99.67, y: 0.56, z: -8.49}
+    roll: 0
+  - position: {x: -73.86, y: 1.4, z: -29.4}
+    roll: 0
+  - position: {x: -53.9, y: 4.52, z: -59.12}
+    roll: 0
+  - position: {x: -28.5, y: 6.5, z: -68.1}
+    roll: 0
+  - position: {x: -3.0999985, y: 2.78, z: -77.08}
+    roll: 0
+  - position: {x: 4.8, y: -1.79, z: -54.47}
     roll: 0
 --- !u!4 &801794578
 Transform:
@@ -4331,7 +4381,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801794576}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.8, y: 2.9, z: -5.06}
+  m_LocalPosition: {x: 36.8, y: 2.9, z: 0.74000025}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7370,8 +7420,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1406776171}
-  m_LocalRotation: {x: -0.027411569, y: -0.17953293, z: -0.005004569, w: 0.98335725}
-  m_LocalPosition: {x: 3.8, y: 2.9, z: -10.059999}
+  m_LocalRotation: {x: -0.00604591, y: -0.6651876, z: -0.0053864047, w: 0.7466324}
+  m_LocalPosition: {x: 36.8, y: 2.9, z: -4.2599998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
